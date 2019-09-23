@@ -99,17 +99,23 @@ h1, h2, strong {
 
 .btn-primary {
     background: #1e90ff;
-    color: #000;
+    color: #fff;
     justify-self: start;
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background: #ffc400;
+    background: #00bfff;
+    color: #fff;
 }
 
 .btn-form {
     justify-self: end;
+}
+
+.contact-form .btn-form {
+    padding: .5em 1.75em;
+    font-size: 1rem;
 }
 
 
@@ -117,6 +123,14 @@ h1, h2, strong {
 /* ==================
     general layout
 ===================== */
+
+a {
+    color: #1e90ff;
+}
+
+a:hover {
+    color: #00bfff
+}
 
 .main-grid {
     display: grid;
@@ -148,8 +162,8 @@ h1, h2, strong {
 }
 
 .logo-link {
-    background-color: dodgerblue;
-    padding-top: 2em;
+    background-color: #1e90ff;
+    padding: 2em .5em 0 .5em;
 }
 
 .nav {
@@ -268,7 +282,7 @@ h1, h2, strong {
 .footer-logo,
 .footer-text,
 .footer-fineprint {
-    opacity: .3;
+    opacity: .4;
 }
 
 .footer-main {
@@ -430,7 +444,7 @@ textarea {
 
 textarea {
     resize: none;
-    height: 100px;
+    height: 150px;
 }
 
 
