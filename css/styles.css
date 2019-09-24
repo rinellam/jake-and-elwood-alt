@@ -120,6 +120,7 @@ h1, h2, strong {
 
 
 
+
 /* ==================
     general layout
 ===================== */
@@ -164,6 +165,7 @@ a:hover {
 .logo-link {
     background-color: #1e90ff;
     padding: 2em .5em 0 .5em;
+    max-width: 70%;
 }
 
 .nav {
@@ -476,3 +478,4 @@ textarea {
     }
     
 }
+
