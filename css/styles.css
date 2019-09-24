@@ -53,10 +53,12 @@ h1, h2, strong {
 }
 
 .hero-title {
-    font-size: 1.5rem;
+    font-size: 1.55rem;
     line-height: 1.4;
     margin-bottom: 0;
 }
+
+
 
 .hero-subtitle {
     font-size: 1.125rem;
@@ -478,4 +480,3 @@ textarea {
     }
     
 }
-
